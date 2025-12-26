@@ -14,56 +14,37 @@ projects:
     links:
       - label: App Store
         url: https://apps.apple.com/app/id0000000000
-      - label: GitHub
-        url: https://github.com/panchalrajan/activatemac
 
-  - id: focus-timer
-    title: Focus Timer
-    summary: Minimal focus timer with custom routines and stats.
+  - id: timezone-planner
+    title: TimeZone Planner
+    summary: Clean world-clock companion with time travel and meeting planner tools.
     description: >
-      Lightweight timer with quick actions, background support,
-      and clean analytics for habit tracking.
+      Track multiple locations, preview future or past times with a time slider,
+      and surface overlapping office hours using Meeting Planner. Customize
+      24-hour time, seconds, flags, and office-hour ranges.
     platforms:
       - ios
       - macos
     stack:
-      - Swift
       - SwiftUI
-      - Combine
-    timeline:
-      start: 2023-06
-      end: 2023-11
+      - AppKit
+      - MapKit
     links:
       - label: App Store
-        url: https://apps.apple.com/app/id123456
-      - label: GitHub
-        url: https://github.com/panchalrajan/focus-timer
+        url: https://apps.apple.com/app/id0000000000
 
-  - id: tab-cleaner
-    title: Tab Cleaner
-    summary: Chrome extension to group and suspend tabs.
+  - id: instatweaks
+    title: InstaTweaks
+    summary: Powerful Instagram tweaks and customizations.
+    description: >
+      InstaTweaks adds advanced media controls, distraction blockers, anonymous
+      story viewing, and interface customization for Instagram on the web. It runs
+      locally in your browser and is lightweight and easy to use.
     platforms:
       - chrome-extension
     stack:
-      - TypeScript
       - Chrome APIs
-    timeline:
-      start: 2022-09
+      - TypeScript
     links:
       - label: Extension Store
-        url: https://chromewebstore.google.com/detail/your-extension-id
-
-  - id: studio-site
-    title: Studio Website
-    summary: Marketing website with CMS-driven content.
-    platforms:
-      - web
-    stack:
-      - React
-      - Vite
-      - Tailwind
-    timeline:
-      start: 2024-01
-    links:
-      - label: Live Site
-        url: https://example.com
+        url: https://chromewebstore.google.com/detail/instatweaks/hljpimmagljpokophncofgmbipfboifo
