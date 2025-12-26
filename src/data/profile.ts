@@ -5,6 +5,7 @@ type ProfileLinks = {
   email?: string;
   github?: string;
   linkedin?: string;
+  resume?: string;
 };
 
 type Profile = {

@@ -51,12 +51,16 @@ const P2_HomePage = () => {
               { label: "NEWS", href: "#" },
               { label: "CERTIFICATES", href: "#" },
               { label: "SKILLS", href: "#" },
-              {
-                label: "RESUME",
-                href: "https://drive.google.com/file/d/1TOmLOSZyljlSB4M-WrmD86MDCMpfh7Ux/view",
-                openInNewTab: true,
-              },
-            ].map((item) => (
+              profile.links?.resume
+                ? {
+                    label: "RESUME",
+                    href: profile.links.resume,
+                    openInNewTab: true,
+                  }
+                : null,
+            ]
+              .filter(Boolean)
+              .map((item) => (
               <a
                 key={item.label}
                 href={item.href}

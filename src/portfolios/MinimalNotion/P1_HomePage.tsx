@@ -9,12 +9,10 @@ const P1_HomePage = () => {
     { label: "what's new", href: "#" },
     { label: "certificates", href: "#" },
     { label: "skills", href: "#" },
-    {
-      label: "resume",
-      href: "https://drive.google.com/file/d/1TOmLOSZyljlSB4M-WrmD86MDCMpfh7Ux/view",
-      openInNewTab: true,
-    },
-  ];
+    profile.links?.resume
+      ? { label: "resume", href: profile.links.resume, openInNewTab: true }
+      : null,
+  ].filter(Boolean) as Array<{ label: string; href: string; openInNewTab?: boolean }>;
   const contactLinks = [
     profile.links?.email
       ? { href: `mailto:${profile.links.email}`, Icon: Mail, label: "Email" }
