@@ -1,0 +1,7 @@
+policies:
+  - id: activate-mac-prank
+    title: Activate Mac Prank
+    content:
+      - ActivateMac is a local macOS utility. It does not collect, transmit, or sell any personal data.
+      - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
+      - If you have any questions, reach out via the contact links on the homepage.

@@ -1,0 +1,69 @@
+projects:
+  - id: activate-mac-prank
+    title: Activate Mac Prank
+    summary: Fake “Activate Windows” watermark prank for macOS desktops.
+    description: >
+      ActivateMac adds an authentic-looking watermark across all displays,
+      runs silently without a Dock icon, and can be toggled from the menu bar.
+      Use responsibly for lighthearted fun.
+    platforms:
+      - macos
+    stack:
+      - SwiftUI
+      - AppKit
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/id0000000000
+      - label: GitHub
+        url: https://github.com/panchalrajan/activatemac
+
+  - id: focus-timer
+    title: Focus Timer
+    summary: Minimal focus timer with custom routines and stats.
+    description: >
+      Lightweight timer with quick actions, background support,
+      and clean analytics for habit tracking.
+    platforms:
+      - ios
+      - macos
+    stack:
+      - Swift
+      - SwiftUI
+      - Combine
+    timeline:
+      start: 2023-06
+      end: 2023-11
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/id123456
+      - label: GitHub
+        url: https://github.com/panchalrajan/focus-timer
+
+  - id: tab-cleaner
+    title: Tab Cleaner
+    summary: Chrome extension to group and suspend tabs.
+    platforms:
+      - chrome-extension
+    stack:
+      - TypeScript
+      - Chrome APIs
+    timeline:
+      start: 2022-09
+    links:
+      - label: Extension Store
+        url: https://chromewebstore.google.com/detail/your-extension-id
+
+  - id: studio-site
+    title: Studio Website
+    summary: Marketing website with CMS-driven content.
+    platforms:
+      - web
+    stack:
+      - React
+      - Vite
+      - Tailwind
+    timeline:
+      start: 2024-01
+    links:
+      - label: Live Site
+        url: https://example.com
