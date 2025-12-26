@@ -51,11 +51,17 @@ const P2_HomePage = () => {
               { label: "NEWS", href: "#" },
               { label: "CERTIFICATES", href: "#" },
               { label: "SKILLS", href: "#" },
-              { label: "RESUME", href: "#" },
+              {
+                label: "RESUME",
+                href: "https://drive.google.com/file/d/1TOmLOSZyljlSB4M-WrmD86MDCMpfh7Ux/view",
+                openInNewTab: true,
+              },
             ].map((item) => (
               <a
                 key={item.label}
                 href={item.href}
+                target={item.openInNewTab ? "_blank" : undefined}
+                rel={item.openInNewTab ? "noreferrer" : undefined}
                 className="border-2 border-black px-4 py-2 font-bold hover:bg-black hover:text-yellow-300 transition-colors uppercase text-sm"
               >
                 {item.label}
@@ -69,6 +75,8 @@ const P2_HomePage = () => {
                 <a
                   key={label}
                   href={href}
+                  target="_blank"
+                  rel="noreferrer"
                   className="border-2 border-black p-2 hover:bg-black hover:text-yellow-300 transition-colors"
                   aria-label={label}
                 >

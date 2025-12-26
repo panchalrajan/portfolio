@@ -9,7 +9,11 @@ const P4_HomePage = () => {
     { label: "News", href: "#" },
     { label: "Certificates", href: "#" },
     { label: "Skills", href: "#" },
-    { label: "Resume", href: "#" },
+    {
+      label: "Resume",
+      href: "https://drive.google.com/file/d/1TOmLOSZyljlSB4M-WrmD86MDCMpfh7Ux/view",
+      openInNewTab: true,
+    },
   ];
   const contactLinks = [
     profile.links?.email
@@ -53,6 +57,8 @@ const P4_HomePage = () => {
             <a
               key={item.label}
               href={item.href}
+              target={item.openInNewTab ? "_blank" : undefined}
+              rel={item.openInNewTab ? "noreferrer" : undefined}
               className="flex items-center gap-3 text-black hover:text-gray-500 transition-colors group"
             >
               <Circle size={8} className="fill-black group-hover:fill-gray-500" />
@@ -69,6 +75,8 @@ const P4_HomePage = () => {
               <a
                 key={label}
                 href={href}
+                target="_blank"
+                rel="noreferrer"
                 className="text-black hover:text-gray-400 transition-colors"
                 aria-label={label}
               >

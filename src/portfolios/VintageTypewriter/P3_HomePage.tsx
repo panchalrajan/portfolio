@@ -9,7 +9,11 @@ const P3_HomePage = () => {
     { label: "News", href: "#" },
     { label: "Certificates", href: "#" },
     { label: "Skills", href: "#" },
-    { label: "Resume", href: "#" },
+    {
+      label: "Resume",
+      href: "https://drive.google.com/file/d/1TOmLOSZyljlSB4M-WrmD86MDCMpfh7Ux/view",
+      openInNewTab: true,
+    },
   ];
   const contactLinks = [
     profile.links?.email
@@ -53,6 +57,8 @@ const P3_HomePage = () => {
               <a
                 key={item.label}
                 href={item.href}
+                target={item.openInNewTab ? "_blank" : undefined}
+                rel={item.openInNewTab ? "noreferrer" : undefined}
                 className="block text-[#2c2c2c] hover:text-[#8b7355] transition-colors text-sm hover:translate-x-2 transition-transform"
               >
                 → {item.label}
@@ -68,6 +74,8 @@ const P3_HomePage = () => {
                 <a
                   key={label}
                   href={href}
+                  target="_blank"
+                  rel="noreferrer"
                   className="text-[#2c2c2c] hover:text-[#8b7355] transition-colors"
                   aria-label={label}
                 >

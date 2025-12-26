@@ -9,7 +9,11 @@ const P1_HomePage = () => {
     { label: "what's new", href: "#" },
     { label: "certificates", href: "#" },
     { label: "skills", href: "#" },
-    { label: "resume", href: "#" },
+    {
+      label: "resume",
+      href: "https://drive.google.com/file/d/1TOmLOSZyljlSB4M-WrmD86MDCMpfh7Ux/view",
+      openInNewTab: true,
+    },
   ];
   const contactLinks = [
     profile.links?.email
@@ -43,7 +47,13 @@ const P1_HomePage = () => {
 
         <nav className="flex flex-wrap gap-x-6 gap-y-2">
           {navLinks.map((link) => (
-            <a key={link.label} href={link.href} className="text-sm text-gray-500 hover:text-gray-900 transition-colors flex items-center gap-1 group">
+            <a
+              key={link.label}
+              href={link.href}
+              target={link.openInNewTab ? "_blank" : undefined}
+              rel={link.openInNewTab ? "noreferrer" : undefined}
+              className="text-sm text-gray-500 hover:text-gray-900 transition-colors flex items-center gap-1 group"
+            >
               {link.label}
               <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
             </a>
@@ -58,6 +68,8 @@ const P1_HomePage = () => {
               <a
                 key={label}
                 href={href}
+                target="_blank"
+                rel="noreferrer"
                 className="text-gray-400 hover:text-gray-900 transition-colors"
                 aria-label={label}
               >
