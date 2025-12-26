@@ -13,6 +13,7 @@ const SessionRoutes = () => {
 
   const Home = variant.Home;
   const Projects = variant.Projects;
+  const Skills = variant.Skills;
   const Privacy = variant.Privacy;
   const NotFound = variant.NotFound;
 
@@ -21,6 +22,7 @@ const SessionRoutes = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         {Projects && <Route path="/projects" element={<Projects />} />}
+        {Skills && <Route path="/skills" element={<Skills />} />}
         {Privacy && <Route path="/privacy/:projectId" element={<Privacy />} />}
         <Route path="*" element={<NotFound />} />
       </Routes>

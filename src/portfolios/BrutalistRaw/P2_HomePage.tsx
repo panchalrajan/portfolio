@@ -50,7 +50,7 @@ const P2_HomePage = () => {
               { label: "ABOUT", href: "#" },
               { label: "NEWS", href: "#" },
               { label: "CERTIFICATES", href: "#" },
-              { label: "SKILLS", href: "#" },
+              { label: "SKILLS", href: "/skills" },
               profile.links?.resume
                 ? {
                     label: "RESUME",

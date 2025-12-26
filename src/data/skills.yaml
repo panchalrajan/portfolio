@@ -1,0 +1,43 @@
+sections:
+  - id: languages
+    title: Languages
+    items:
+      - Swift
+      - Objective-C
+      - TypeScript
+      - JavaScript
+      - HTML
+      - CSS
+  - id: frameworks
+    title: Frameworks & SDKs
+    items:
+      - SwiftUI
+      - UIKit
+      - Combine
+      - AppKit
+      - MapKit
+      - CoreData
+  - id: tools
+    title: Tools
+    items:
+      - Xcode
+      - Instruments
+      - Git
+      - Figma
+      - Postman
+  - id: practices
+    title: Practices
+    items:
+      - Clean Architecture
+      - MVVM
+      - Performance Optimization
+      - Accessibility
+      - Code Review
+  - id: soft-skills
+    title: Soft Skills
+    items:
+      - Communication
+      - Collaboration
+      - Product Thinking
+      - Mentoring
+      - Ownership

@@ -8,7 +8,7 @@ const P4_HomePage = () => {
     { label: "About", href: "#" },
     { label: "News", href: "#" },
     { label: "Certificates", href: "#" },
-    { label: "Skills", href: "#" },
+    { label: "Skills", href: "/skills" },
     profile.links?.resume
       ? { label: "Resume", href: profile.links.resume, openInNewTab: true }
       : null,
