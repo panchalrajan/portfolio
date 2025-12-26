@@ -49,7 +49,7 @@ const P2_HomePage = () => {
               { label: "BLOG", href: "#" },
               { label: "ABOUT", href: "#" },
               { label: "NEWS", href: "#" },
-              { label: "CERTIFICATES", href: "#" },
+              { label: "CERTIFICATES", href: "/certificates" },
               { label: "SKILLS", href: "/skills" },
               profile.links?.resume
                 ? {

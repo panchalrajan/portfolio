@@ -7,7 +7,7 @@ const P5_HomePage = () => {
     { label: "Blog", href: "#" },
     { label: "About", href: "#" },
     { label: "News", href: "#" },
-    { label: "Certificates", href: "#" },
+    { label: "Certificates", href: "/certificates" },
     { label: "Skills", href: "/skills" },
     profile.links?.resume
       ? { label: "Resume", href: profile.links.resume, openInNewTab: true }

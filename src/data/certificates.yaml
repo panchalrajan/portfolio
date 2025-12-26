@@ -1,0 +1,13 @@
+certificates:
+  - id: coursera-agile-jira
+    title: Coursera Agile with Atlassian Jira Certificate
+    issuer: Coursera
+    link: https://www.coursera.org/account/accomplishments/verify/JWM6TTCLVVD2
+  - id: udemy-mvvm-ios
+    title: Udemy MVVM Design Pattern Using Swift in iOS Certificate
+    issuer: Udemy
+    link: https://www.udemy.com/certificate/UC-01cc108f-4b6b-459b-8a2f-0cef2637cab3/
+  - id: udemy-system-design
+    title: Udemy Mastering the System Design Certificate
+    issuer: Udemy
+    link: https://www.udemy.com/certificate/UC-339e5117-501c-4978-a02d-cf05b5f62c8e/
