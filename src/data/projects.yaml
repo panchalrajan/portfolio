@@ -33,6 +33,18 @@ projects:
       - label: App Store
         url: https://apps.apple.com/app/id0000000000
 
+  - id: sliderush-puzzle
+    title: SlideRush - Puzzle
+    summary: Modern sliding puzzle with custom boards and best-score challenges.
+    description: >
+      A modern sliding-puzzle game with clean design, custom boards, and
+      best-score challenges.
+    platforms:
+      - ios
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/id0000000000
+
   - id: instatweaks
     title: InstaTweaks
     summary: Powerful Instagram tweaks and customizations.
