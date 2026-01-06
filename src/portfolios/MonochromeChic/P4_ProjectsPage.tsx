@@ -2,7 +2,7 @@ import { projects } from "@/data/projects";
 
 const P4_ProjectsPage = () => {
   return (
-    <main className="min-h-screen flex flex-col items-center px-6 py-16 bg-white font-outfit">
+    <main className="min-h-screen h-full overflow-y-auto flex flex-col items-center px-6 py-16 bg-white font-outfit">
       <div className="max-w-2xl w-full">
         <header className="flex items-center gap-4 mb-10">
           <div className="w-14 h-14 bg-black rounded-full flex items-center justify-center">

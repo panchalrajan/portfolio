@@ -2,7 +2,7 @@ import { projects } from "@/data/projects";
 
 const P3_ProjectsPage = () => {
   return (
-    <main className="min-h-screen flex flex-col items-center px-6 py-16 bg-[#f4f1ea] font-mono-jb relative">
+    <main className="min-h-screen h-full overflow-y-auto flex flex-col items-center px-6 py-16 bg-[#f4f1ea] font-mono-jb relative">
       <div
         className="absolute inset-0 opacity-[0.03]"
         style={{

@@ -2,7 +2,7 @@ import { projects } from "@/data/projects";
 
 const P5_ProjectsPage = () => {
   return (
-    <main className="min-h-screen flex flex-col items-center px-6 py-16 bg-[#faf8f5] font-instrument">
+    <main className="min-h-screen h-full overflow-y-auto flex flex-col items-center px-6 py-16 bg-[#faf8f5] font-instrument">
       <div className="max-w-3xl w-full text-center">
         <p className="text-xs tracking-[0.5em] text-gray-400 uppercase border-b border-t border-gray-300 py-2">
           Projects • Portfolio Edition

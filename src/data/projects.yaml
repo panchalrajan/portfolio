@@ -13,7 +13,7 @@ projects:
       - AppKit
     links:
       - label: App Store
-        url: https://apps.apple.com/app/id0000000000
+        url: https://apps.apple.com/us/app/timezone-planner/id6757096147
 
   - id: timezone-planner
     title: TimeZone Planner
@@ -31,7 +31,7 @@ projects:
       - MapKit
     links:
       - label: App Store
-        url: https://apps.apple.com/app/id0000000000
+        url: https://apps.apple.com/us/app/sliderush-puzzle/id6757233640
 
   - id: sliderush-puzzle
     title: SlideRush - Puzzle
@@ -39,6 +39,19 @@ projects:
     description: >
       A modern sliding-puzzle game with clean design, custom boards, and
       best-score challenges.
+    platforms:
+      - ios
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/id6756962902
+
+  - id: gst-calculator-2-0
+    title: GST Calculator - 2.0
+    summary: Instant GST add/remove calculator with flexible rates.
+    description: >
+      GST Quick Calc makes GST math painless with instant inclusive/exclusive
+      results, flexible rate selection, and a clean interface built for quick
+      checks on prices and invoices.
     platforms:
       - ios
     links:

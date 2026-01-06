@@ -3,7 +3,7 @@ import { projects } from "@/data/projects";
 
 const P1_ProjectsPage = () => {
   return (
-    <main className="min-h-screen flex flex-col items-center px-6 py-16 bg-white font-mono-jb">
+    <main className="min-h-screen h-full overflow-y-auto flex flex-col items-center px-6 py-16 bg-white font-mono-jb">
       <div className="max-w-2xl w-full space-y-10">
         <header className="space-y-3">
           <h1 className="text-3xl font-semibold tracking-tight text-gray-900">
