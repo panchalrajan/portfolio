@@ -16,6 +16,7 @@ const SessionRoutes = () => {
   const Skills = variant.Skills;
   const Certificates = variant.Certificates;
   const Privacy = variant.Privacy;
+  const PrivacyList = variant.PrivacyList;
   const NotFound = variant.NotFound;
 
   return (
@@ -25,6 +26,7 @@ const SessionRoutes = () => {
         {Projects && <Route path="/projects" element={<Projects />} />}
         {Skills && <Route path="/skills" element={<Skills />} />}
         {Certificates && <Route path="/certificates" element={<Certificates />} />}
+        {PrivacyList && <Route path="/privacy" element={<PrivacyList />} />}
         {Privacy && <Route path="/privacy/:projectId" element={<Privacy />} />}
         <Route path="*" element={<NotFound />} />
       </Routes>

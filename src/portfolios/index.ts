@@ -28,6 +28,11 @@ import P2_PrivacyPage from "./BrutalistRaw/P2_PrivacyPage";
 import P3_PrivacyPage from "./VintageTypewriter/P3_PrivacyPage";
 import P4_PrivacyPage from "./MonochromeChic/P4_PrivacyPage";
 import P5_PrivacyPage from "./NewspaperClassic/P5_PrivacyPage";
+import P1_PrivacyListPage from "./MinimalNotion/P1_PrivacyListPage";
+import P2_PrivacyListPage from "./BrutalistRaw/P2_PrivacyListPage";
+import P3_PrivacyListPage from "./VintageTypewriter/P3_PrivacyListPage";
+import P4_PrivacyListPage from "./MonochromeChic/P4_PrivacyListPage";
+import P5_PrivacyListPage from "./NewspaperClassic/P5_PrivacyListPage";
 
 export const portfolioVariants = [
   {
@@ -36,6 +41,7 @@ export const portfolioVariants = [
     Skills: P1_SkillsPage,
     Certificates: P1_CertificatesPage,
     Privacy: P1_PrivacyPage,
+    PrivacyList: P1_PrivacyListPage,
     NotFound: P1_NotFound,
   },
   {
@@ -44,6 +50,7 @@ export const portfolioVariants = [
     Skills: P2_SkillsPage,
     Certificates: P2_CertificatesPage,
     Privacy: P2_PrivacyPage,
+    PrivacyList: P2_PrivacyListPage,
     NotFound: P2_NotFound,
   },
   {
@@ -52,6 +59,7 @@ export const portfolioVariants = [
     Skills: P3_SkillsPage,
     Certificates: P3_CertificatesPage,
     Privacy: P3_PrivacyPage,
+    PrivacyList: P3_PrivacyListPage,
     NotFound: P3_NotFound,
   },
   {
@@ -60,6 +68,7 @@ export const portfolioVariants = [
     Skills: P4_SkillsPage,
     Certificates: P4_CertificatesPage,
     Privacy: P4_PrivacyPage,
+    PrivacyList: P4_PrivacyListPage,
     NotFound: P4_NotFound,
   },
   {
@@ -68,6 +77,7 @@ export const portfolioVariants = [
     Skills: P5_SkillsPage,
     Certificates: P5_CertificatesPage,
     Privacy: P5_PrivacyPage,
+    PrivacyList: P5_PrivacyListPage,
     NotFound: P5_NotFound,
   },
 ];
