@@ -12,6 +12,7 @@ const publicDir = path.join(rootDir, "public");
 const fallbackBaseUrl = "https://panchalrajan.github.io/portfolio";
 const baseUrl = normalizeBaseUrl(
   process.env.SITE_URL ||
+    process.env.VERCEL_PROJECT_PRODUCTION_URL ||
     (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : fallbackBaseUrl),
 );
 
