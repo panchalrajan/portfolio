@@ -73,3 +73,15 @@ projects:
     links:
       - label: Extension Store
         url: https://chromewebstore.google.com/detail/instatweaks/hljpimmagljpokophncofgmbipfboifo
+
+  - id: flames-reveal
+    title: "Flames : Reveal"
+    summary: Step-by-step FLAMES name game with animations and history.
+    description: >
+      Flames brings the classic FLAMES name game to life with clear visuals.
+      Enter two names, choose how to treat symbols, pick what "S" means, and
+      watch the full process unfold: normalize names, cancel common letters,
+      count remaining, and eliminate the FLAMES ring to reveal the result.
+      Save outcomes in history and share results instantly.
+    platforms:
+      - ios

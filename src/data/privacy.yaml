@@ -23,3 +23,9 @@ policies:
       - "GST Calculator : 2.0 is a local app and does not collect, transmit, or sell any personal data."
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
       - If you have any questions, reach out via the contact links on the homepage.
+  - id: flames-reveal
+    title: "Flames : Reveal"
+    content:
+      - "Flames : Reveal is a local app and does not collect, transmit, or sell any personal data."
+      - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
+      - If you have any questions, reach out via the contact links on the homepage.
