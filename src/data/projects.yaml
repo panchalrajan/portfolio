@@ -85,3 +85,18 @@ projects:
       Save outcomes in history and share results instantly.
     platforms:
       - ios
+    links:
+      - label: App Store
+        url: https://apps.apple.com/us/app/sliderush-puzzle/id6757233640
+
+  - id: numble-guess
+    title: Numble Guess
+    summary: Challenge your mind with Guess the Number, the ultimate code-breaking puzzle game that’s easy to learn but hard to master!
+    description: >
+      Challenge your mind with Guess the Number, the ultimate code-breaking puzzle game that’s easy to learn but hard to master! Put your logic and deduction skills to the test as you try to guess the secret number in the fewest attempts possible. With a clean, modern interface and engaging gameplay, this is the brain-training exercise you won’t be able to put down.
+    platforms:
+      - ios
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/id0000000000
+
