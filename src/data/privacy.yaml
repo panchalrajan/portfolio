@@ -35,3 +35,12 @@ policies:
       - Numble Guess is a local app and does not collect, transmit, or sell any personal data.
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
       - If you have any questions, reach out via the contact links on the homepage.
+  - id: icon-preview-pro
+    title: Icon Preview Pro
+    content:
+      - Icon Preview Pro is a local macOS utility and does not collect, transmit, or sell any personal data.
+      - All image processing happens entirely on your device. Your images never leave your computer.
+      - The app runs in macOS sandbox with restricted file access for maximum security.
+      - No analytics, tracking, crash reporting, or third-party SDKs are used.
+      - The app does not require an account or internet connection to function.
+      - If you have any questions, reach out via the contact links on the homepage.

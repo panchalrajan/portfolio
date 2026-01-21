@@ -91,11 +91,30 @@ projects:
 
   - id: numble-guess
     title: Numble Guess
-    summary: Challenge your mind with Guess the Number, the ultimate code-breaking puzzle game that’s easy to learn but hard to master!
+    summary: Challenge your mind with Guess the Number, the ultimate code-breaking puzzle game that's easy to learn but hard to master!
     description: >
-      Challenge your mind with Guess the Number, the ultimate code-breaking puzzle game that’s easy to learn but hard to master! Put your logic and deduction skills to the test as you try to guess the secret number in the fewest attempts possible. With a clean, modern interface and engaging gameplay, this is the brain-training exercise you won’t be able to put down.
+      Challenge your mind with Guess the Number, the ultimate code-breaking puzzle game that's easy to learn but hard to master! Put your logic and deduction skills to the test as you try to guess the secret number in the fewest attempts possible. With a clean, modern interface and engaging gameplay, this is the brain-training exercise you won't be able to put down.
     platforms:
       - ios
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/id0000000000
+
+  - id: icon-preview-pro
+    title: Icon Preview Pro
+    summary: Professional macOS icon generator for developers and designers.
+    description: >
+      Transform your 1024x1024 pixel images into complete, Xcode-ready icon sets instantly.
+      Icon Preview Pro generates all required icon sizes (16px to 1024px) with proper iOS-style
+      rounded corners, exports as Xcode-compatible ZIP archives, and validates your images in
+      real-time. Perfect for indie developers, design teams, and anyone who needs fast, reliable
+      icon generation without complex design tools. Native SwiftUI app with zero dependencies.
+    platforms:
+      - macos
+    stack:
+      - SwiftUI
+      - AppKit
+      - CoreGraphics
     links:
       - label: App Store
         url: https://apps.apple.com/app/id0000000000
