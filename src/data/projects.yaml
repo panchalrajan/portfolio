@@ -150,3 +150,20 @@ projects:
     links:
       - label: App Store
         url: https://apps.apple.com/app/id0000000000
+
+  - id: bitwise
+    title: BitWise
+    summary: Fast number-system converter for Binary, Octal, Decimal, and Hex.
+    description: >
+      BitWise converts numbers across base 2, 8, 10, and 16 instantly.
+      It supports fractional values, validates input by selected base, and
+      offers quick copy and share actions for daily developer and student workflows.
+    platforms:
+      - ios
+    stack:
+      - SwiftUI
+      - StoreKit
+      - MessageUI
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/id0000000000
