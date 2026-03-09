@@ -79,3 +79,11 @@ policies:
       - No analytics, tracking, crash reporting, or third-party SDKs are used.
       - If you choose to share calculation output or send feedback email manually, your selected apps handle that communication.
       - If you have any questions, reach out via the contact links on the homepage.
+  - id: cash-notes
+    title: Cash Notes
+    content:
+      - Cash Notes is a local app and does not collect, transmit, or sell any personal data.
+      - Your receipts and settings are stored on your device using iOS system storage.
+      - No analytics, tracking, or third-party advertising SDKs are used.
+      - If you choose to export or share receipt content, your selected apps handle that communication.
+      - Full privacy policy: https://www.swiftninjadev.com/privacy/cash-notes

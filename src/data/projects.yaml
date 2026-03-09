@@ -184,3 +184,22 @@ projects:
     links:
       - label: App Store
         url: https://apps.apple.com/app/id0000000000
+
+  - id: cash-notes
+    title: Cash Notes
+    summary: Receipt notes app for quickly creating, managing, and sharing cash receipts.
+    description: >
+      Cash Notes helps you create clean receipt-style notes with itemized entries,
+      totals, and flexible sharing. Organize receipts, search quickly, keep your
+      last opened receipt, and export in multiple formats for daily business use.
+    platforms:
+      - ios
+    stack:
+      - SwiftUI
+      - StoreKit
+      - UserDefaults
+    links:
+      - label: Privacy Policy
+        url: https://www.swiftninjadev.com/privacy/cash-notes
+      - label: App Store
+        url: https://apps.apple.com/app/id0000000000
