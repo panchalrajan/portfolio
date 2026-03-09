@@ -119,3 +119,18 @@ projects:
       - label: App Store
         url: https://apps.apple.com/app/id0000000000
 
+  - id: pet-everywhere
+    title: Pet Everywhere
+    summary: Animated desktop pet companion for your Mac menu bar, Dock, and app icon.
+    description: >
+      Pet Everywhere brings playful animated pets to your Mac experience.
+      Choose your favorite pet, switch between Menu Bar, Dock, and App Icon modes,
+      and customize animation behavior with simple controls.
+    platforms:
+      - macos
+    stack:
+      - SwiftUI
+      - AppKit
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/id0000000000
