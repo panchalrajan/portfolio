@@ -134,3 +134,19 @@ projects:
     links:
       - label: App Store
         url: https://apps.apple.com/app/id0000000000
+
+  - id: cheque-words
+    title: Cheque Words
+    summary: Convert numbers into clear words for cheques, invoices, and records.
+    description: >
+      Cheque Words converts numeric amounts into accurate written words instantly.
+      Built for cheque writing and finance workflows, it helps reduce amount entry
+      mistakes with a clean, fast, and reliable experience.
+    platforms:
+      - ios
+    stack:
+      - SwiftUI
+      - StoreKit
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/id0000000000

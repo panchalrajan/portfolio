@@ -55,3 +55,11 @@ policies:
       - No analytics, tracking, crash reporting, or third-party SDKs are used.
       - The app does not require an account or internet connection to function.
       - If you have any questions, reach out via the contact links on the homepage.
+  - id: cheque-words
+    title: Cheque Words
+    content:
+      - Cheque Words is a local app and does not collect, transmit, or sell any personal data.
+      - The app runs entirely on your device and does not require an account.
+      - No analytics, tracking, or third-party SDKs are used.
+      - If you choose to write feedback email manually, your email app handles that communication.
+      - If you have any questions, reach out via the contact links on the homepage.
