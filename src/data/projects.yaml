@@ -167,3 +167,20 @@ projects:
     links:
       - label: App Store
         url: https://apps.apple.com/app/id0000000000
+
+  - id: tip-calculator
+    title: Tip Calculator
+    summary: Quick tip, total, and split-bill calculator with multi-currency support.
+    description: >
+      Tip Calculator helps you calculate tip and total instantly using percentage
+      or fixed tip input. Split bills across people, switch currencies, optionally
+      round values, and copy or share clean results in seconds.
+    platforms:
+      - ios
+    stack:
+      - SwiftUI
+      - StoreKit
+      - MessageUI
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/id0000000000
