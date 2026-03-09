@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import { projects } from "@/data/projects";
-import { privacyPolicies } from "@/data/privacy";
+import { hiddenPrivacyPolicyIds, privacyPolicies } from "@/data/privacy";
 
 const P1_PrivacyListPage = () => {
   const policiesById = new Map(privacyPolicies.map((policy) => [policy.id, policy]));
@@ -22,7 +22,9 @@ const P1_PrivacyListPage = () => {
         </header>
 
         <div className="space-y-6">
-          {projects.map((project) => {
+          {projects
+            .filter((project) => !hiddenPrivacyPolicyIds.has(project.id))
+            .map((project) => {
             const policy = policiesById.get(project.id);
             return (
               <article key={project.id} className="space-y-3">

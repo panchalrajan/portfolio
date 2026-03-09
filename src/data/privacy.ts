@@ -5,6 +5,7 @@ type PrivacyPolicy = {
   id: string;
   title?: string;
   content?: string[];
+  hidden?: boolean;
 };
 
 type PrivacyData = {
@@ -16,3 +17,9 @@ const privacyData: PrivacyData =
   parsed && typeof parsed === "object" ? (parsed as PrivacyData) : {};
 
 export const privacyPolicies = privacyData.policies ?? [];
+
+export const hiddenPrivacyPolicyIds = new Set(
+  privacyPolicies
+    .filter((policy) => policy.hidden === true)
+    .map((policy) => policy.id),
+);

@@ -1,5 +1,5 @@
 import { projects } from "@/data/projects";
-import { privacyPolicies } from "@/data/privacy";
+import { hiddenPrivacyPolicyIds, privacyPolicies } from "@/data/privacy";
 
 const P2_PrivacyListPage = () => {
   const policiesById = new Map(privacyPolicies.map((policy) => [policy.id, policy]));
@@ -19,7 +19,9 @@ const P2_PrivacyListPage = () => {
           </header>
 
           <div className="mt-8 space-y-6">
-            {projects.map((project) => {
+            {projects
+              .filter((project) => !hiddenPrivacyPolicyIds.has(project.id))
+              .map((project) => {
               const policy = policiesById.get(project.id);
               return (
                 <article key={project.id} className="border-2 border-black p-4">
