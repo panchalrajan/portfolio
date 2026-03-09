@@ -86,4 +86,4 @@ policies:
       - Your receipts and settings are stored on your device using iOS system storage.
       - No analytics, tracking, or third-party advertising SDKs are used.
       - If you choose to export or share receipt content, your selected apps handle that communication.
-      - Full privacy policy: https://www.swiftninjadev.com/privacy/cash-notes
+      - "Full privacy policy: https://www.swiftninjadev.com/privacy/cash-notes"
