@@ -81,3 +81,16 @@ export const portfolioVariants = [
     NotFound: P5_NotFound,
   },
 ];
+
+// If empty, all variants are allowed.
+export const allowedPortfolioVariantIndexes: number[] = [0];
+
+export const getAllowedPortfolioVariants = () => {
+  if (allowedPortfolioVariantIndexes.length === 0) {
+    return portfolioVariants;
+  }
+
+  return allowedPortfolioVariantIndexes
+    .map((index) => portfolioVariants[index])
+    .filter(Boolean);
+};

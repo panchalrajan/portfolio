@@ -1,11 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import { portfolioVariants } from "@/portfolios";
+import { getAllowedPortfolioVariants } from "@/portfolios";
 import { useSessionVariant } from "@/portfolios/useSessionVariant";
 import DevVariantSwitcher from "@/portfolios/DevVariantSwitcher";
 
 const SessionRoutes = () => {
-  const currentIndex = useSessionVariant(portfolioVariants.length);
-  const variant = portfolioVariants[currentIndex] ?? portfolioVariants[0];
+  const allowedVariants = getAllowedPortfolioVariants();
+  const currentIndex = useSessionVariant(allowedVariants.length);
+  const variant = allowedVariants[currentIndex] ?? allowedVariants[0];
 
   if (!variant) {
     return null;
@@ -32,7 +33,7 @@ const SessionRoutes = () => {
       </Routes>
       {import.meta.env.DEV && (
         <DevVariantSwitcher
-          count={portfolioVariants.length}
+          count={allowedVariants.length}
           currentIndex={currentIndex}
         />
       )}
