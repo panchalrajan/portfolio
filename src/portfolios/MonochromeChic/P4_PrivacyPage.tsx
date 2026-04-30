@@ -22,12 +22,6 @@ const P4_PrivacyPage = () => {
             <h1 className="text-3xl font-bold text-black tracking-tight">
               Privacy Policy
             </h1>
-            <a
-              href="/projects"
-              className="text-xs uppercase tracking-[0.2em] text-gray-400 hover:text-black transition-colors"
-            >
-              Back to projects
-            </a>
           </div>
         </header>
 

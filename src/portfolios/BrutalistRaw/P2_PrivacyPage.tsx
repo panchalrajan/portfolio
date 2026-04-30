@@ -17,12 +17,6 @@ const P2_PrivacyPage = () => {
             <h1 className="mt-3 text-3xl md:text-5xl font-bold uppercase tracking-tighter text-black">
               Privacy Policy
             </h1>
-            <a
-              href="/projects"
-              className="mt-4 inline-flex border-2 border-black px-3 py-1 font-bold hover:bg-black hover:text-yellow-300 transition-colors uppercase text-xs"
-            >
-              Back to Projects
-            </a>
           </header>
 
           <section className="mt-6 text-sm font-medium uppercase">

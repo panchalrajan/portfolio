@@ -18,12 +18,6 @@ const P1_PrivacyPage = () => {
           <h1 className="text-3xl font-semibold tracking-tight text-gray-900">
             Privacy Policy
           </h1>
-          <a
-            href="/projects"
-            className="text-xs uppercase tracking-[0.3em] text-gray-400 hover:text-gray-900 transition-colors"
-          >
-            Back to projects
-          </a>
         </header>
 
         <section className="space-y-4 text-sm text-gray-600">
