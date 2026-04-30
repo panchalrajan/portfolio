@@ -34,6 +34,18 @@ const P5_PrivacyPage = () => {
               Privacy details are not available yet.
             </p>
           )}
+          <p
+            className="mt-5 border-t border-gray-300 pt-4 text-xs tracking-[0.2em] uppercase text-gray-500"
+            style={{ fontFamily: "Georgia, serif" }}
+          >
+            Contact:{" "}
+            <a
+              href="mailto:panchal.rajan2k19@gmail.com"
+              className="text-black hover:text-gray-500 transition-colors"
+            >
+              panchal.rajan2k19@gmail.com
+            </a>
+          </p>
         </div>
       </div>
     </main>

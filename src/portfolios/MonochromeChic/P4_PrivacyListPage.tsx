@@ -15,12 +15,6 @@ const P4_PrivacyListPage = () => {
             <h1 className="text-3xl font-bold text-black tracking-tight">
               Privacy
             </h1>
-            <a
-              href="/"
-              className="text-xs uppercase tracking-[0.2em] text-gray-400 hover:text-black transition-colors"
-            >
-              Back to home
-            </a>
           </div>
         </header>
 

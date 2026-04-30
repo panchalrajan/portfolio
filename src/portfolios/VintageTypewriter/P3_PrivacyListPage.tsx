@@ -20,12 +20,6 @@ const P3_PrivacyListPage = () => {
             <h1 className="text-4xl font-bold text-[#2c2c2c] tracking-tight">
               Privacy Ledger
             </h1>
-            <a
-              href="/"
-              className="text-xs text-[#2c2c2c] hover:text-[#8b7355] transition-colors"
-            >
-              Back to home
-            </a>
           </header>
 
           <div className="mt-6 w-full h-px bg-[#2c2c2c]" />

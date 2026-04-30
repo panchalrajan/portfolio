@@ -29,6 +29,15 @@ const P2_PrivacyPage = () => {
             ) : (
               <p>Privacy details are not available yet.</p>
             )}
+            <p className="mt-5 border-t-2 border-black pt-4 text-xs font-bold">
+              CONTACT:{" "}
+              <a
+                href="mailto:panchal.rajan2k19@gmail.com"
+                className="underline underline-offset-2"
+              >
+                PANCHAL.RAJAN2K19@GMAIL.COM
+              </a>
+            </p>
           </section>
         </div>
       </div>
