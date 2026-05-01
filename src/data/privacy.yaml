@@ -5,38 +5,38 @@ policies:
     content:
       - ActivateMac is a local macOS utility. It does not collect, transmit, or sell any personal data.
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
-      - If you have any questions, contact panchal.rajan2k19@gmail.com.
+      - If you have any questions, reach out via the contact links on the homepage.
   - id: timezone-planner
     title: TimeZone Planner
     content:
       - TimeZone Planner is a local app and does not collect, transmit, or sell any personal data.
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
-      - If you have any questions, contact panchal.rajan2k19@gmail.com.
+      - If you have any questions, reach out via the contact links on the homepage.
   - id: sliderush-puzzle
     title: SlideRush - Puzzle
     content:
       - SlideRush - Puzzle is a local app and does not collect, transmit, or sell any personal data.
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
-      - If you have any questions, contact panchal.rajan2k19@gmail.com.
+      - If you have any questions, reach out via the contact links on the homepage.
   - id: gst-calculator-2-0
     title: "GST Calculator : 2.0"
     content:
       - "GST Calculator : 2.0 is a local app and does not collect, transmit, or sell any personal data."
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
-      - If you have any questions, contact panchal.rajan2k19@gmail.com.
+      - If you have any questions, reach out via the contact links on the homepage.
   - id: flames-reveal
     title: "Flames : Reveal"
     hidden: true
     content:
       - "Flames : Reveal is a local app and does not collect, transmit, or sell any personal data."
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
-      - If you have any questions, contact panchal.rajan2k19@gmail.com.
+      - If you have any questions, reach out via the contact links on the homepage.
   - id: numble-guess
     title: Numble Guess
     content:
       - Numble Guess is a local app and does not collect, transmit, or sell any personal data.
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
-      - If you have any questions, contact panchal.rajan2k19@gmail.com.
+      - If you have any questions, reach out via the contact links on the homepage.
   - id: icon-preview-pro
     title: Icon Preview Pro
     hidden: true
@@ -46,7 +46,7 @@ policies:
       - The app runs in macOS sandbox with restricted file access for maximum security.
       - No analytics, tracking, crash reporting, or third-party SDKs are used.
       - The app does not require an account or internet connection to function.
-      - If you have any questions, contact panchal.rajan2k19@gmail.com.
+      - If you have any questions, reach out via the contact links on the homepage.
   - id: pet-everywhere
     title: Pet Everywhere
     content:
@@ -54,7 +54,7 @@ policies:
       - The app runs entirely on your device and stores preferences locally using macOS system storage.
       - No analytics, tracking, crash reporting, or third-party SDKs are used.
       - The app does not require an account or internet connection to function.
-      - If you have any questions, contact panchal.rajan2k19@gmail.com.
+      - If you have any questions, reach out via the contact links on the homepage.
   - id: cheque-words
     title: Cheque Words
     content:
@@ -62,7 +62,7 @@ policies:
       - The app runs entirely on your device and does not require an account.
       - No analytics, tracking, or third-party SDKs are used.
       - If you choose to write feedback email manually, your email app handles that communication.
-      - If you have any questions, contact panchal.rajan2k19@gmail.com.
+      - If you have any questions, reach out via the contact links on the homepage.
   - id: bitwise
     title: BitWise
     content:
@@ -70,7 +70,7 @@ policies:
       - The app runs entirely on your device and does not require an account.
       - No analytics, tracking, crash reporting, or third-party SDKs are used.
       - If you choose to share conversion output or send feedback email manually, your selected apps handle that communication.
-      - If you have any questions, contact panchal.rajan2k19@gmail.com.
+      - If you have any questions, reach out via the contact links on the homepage.
   - id: tip-calculator
     title: Tip Calculator
     content:
@@ -78,7 +78,7 @@ policies:
       - The app runs entirely on your device and does not require an account.
       - No analytics, tracking, crash reporting, or third-party SDKs are used.
       - If you choose to share calculation output or send feedback email manually, your selected apps handle that communication.
-      - If you have any questions, contact panchal.rajan2k19@gmail.com.
+      - If you have any questions, reach out via the contact links on the homepage.
   - id: cash-notes
     title: Cash Notes
     content:

@@ -12,6 +12,13 @@ const P1_PrivacyListPage = () => {
           <h1 className="text-3xl font-semibold tracking-tight text-gray-900">
             Privacy
           </h1>
+          <a
+            href="/"
+            className="text-xs uppercase tracking-[0.3em] text-gray-400 hover:text-gray-900 transition-colors inline-flex items-center gap-1"
+          >
+            Back to home
+            <ArrowUpRight size={12} />
+          </a>
         </header>
 
         <div className="space-y-6">

@@ -24,6 +24,12 @@ const P3_PrivacyPage = () => {
             <h1 className="text-3xl font-bold text-[#2c2c2c] tracking-tight">
               Privacy Policy
             </h1>
+            <a
+              href="/projects"
+              className="text-xs text-[#2c2c2c] hover:text-[#8b7355] transition-colors"
+            >
+              Back to projects
+            </a>
           </header>
 
           <div className="mt-6 w-full h-px bg-[#2c2c2c]" />
@@ -38,15 +44,6 @@ const P3_PrivacyPage = () => {
             ) : (
               <p>Privacy details are not available yet.</p>
             )}
-            <p className="mt-5 border-t border-[#2c2c2c]/30 pt-4 text-xs text-[#2c2c2c]">
-              Contact:{" "}
-              <a
-                href="mailto:panchal.rajan2k19@gmail.com"
-                className="hover:text-[#8b7355] transition-colors"
-              >
-                panchal.rajan2k19@gmail.com
-              </a>
-            </p>
           </section>
         </div>
       </div>

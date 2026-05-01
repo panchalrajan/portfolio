@@ -20,6 +20,13 @@ const P5_PrivacyPage = () => {
           Privacy Policy
         </h1>
 
+        <a
+          href="/projects"
+          className="mt-4 inline-flex text-sm tracking-[0.3em] text-gray-500 uppercase hover:text-black transition-colors"
+        >
+          Back to projects
+        </a>
+
         <div className="mt-10 text-left text-gray-600">
           {policy?.content && policy.content.length > 0 ? (
             <ul className="list-disc pl-5 space-y-3">
@@ -34,18 +41,6 @@ const P5_PrivacyPage = () => {
               Privacy details are not available yet.
             </p>
           )}
-          <p
-            className="mt-5 border-t border-gray-300 pt-4 text-xs tracking-[0.2em] uppercase text-gray-500"
-            style={{ fontFamily: "Georgia, serif" }}
-          >
-            Contact:{" "}
-            <a
-              href="mailto:panchal.rajan2k19@gmail.com"
-              className="text-black hover:text-gray-500 transition-colors"
-            >
-              panchal.rajan2k19@gmail.com
-            </a>
-          </p>
         </div>
       </div>
     </main>

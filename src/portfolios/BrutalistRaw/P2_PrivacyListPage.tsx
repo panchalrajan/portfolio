@@ -10,6 +10,12 @@ const P2_PrivacyListPage = () => {
         <div className="border-4 border-black p-8 bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
           <header className="border-b-4 border-black pb-6">
             <p className="text-3xl font-bold uppercase">Privacy</p>
+            <a
+              href="/"
+              className="mt-3 inline-flex border-2 border-black px-3 py-1 font-bold hover:bg-black hover:text-yellow-300 transition-colors uppercase text-xs"
+            >
+              Back to Home
+            </a>
           </header>
 
           <div className="mt-8 space-y-6">

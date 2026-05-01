@@ -18,6 +18,13 @@ const P5_PrivacyListPage = () => {
           Privacy Ledger
         </h1>
 
+        <a
+          href="/"
+          className="mt-4 inline-flex text-sm tracking-[0.3em] text-gray-500 uppercase hover:text-black transition-colors"
+        >
+          Back to home
+        </a>
+
         <div className="mt-10 space-y-8 text-left">
           {projects
             .filter((project) => !hiddenPrivacyPolicyIds.has(project.id))
