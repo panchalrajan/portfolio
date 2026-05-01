@@ -15,7 +15,7 @@ projects:
       - MapKit
     links:
       - label: App Store
-        url: https://apps.apple.com/ca/app/timezone-planner/id6757096147
+        url: https://apps.apple.com/us/app/timezone-planner/id6757096147
 
   - id: sliderush-puzzle
     title: SlideRush - Puzzle
@@ -27,7 +27,7 @@ projects:
       - ios
     links:
       - label: App Store
-        url: https://apps.apple.com/ca/app/sliderush-puzzle/id6757233640
+        url: https://apps.apple.com/us/app/sliderush-puzzle/id6757233640
 
   - id: gst-calculator-2-0
     title: GST Calculator - 2.0
@@ -40,7 +40,7 @@ projects:
       - ios
     links:
       - label: App Store
-        url: https://apps.apple.com/ca/app/gst-calculator-2-0/id6756962902
+        url: https://apps.apple.com/us/app/gst-calculator-2-0/id6756962902
 
   - id: numble-guess
     title: Numble Guess
@@ -51,7 +51,7 @@ projects:
       - ios
     links:
       - label: App Store
-        url: https://apps.apple.com/ca/app/numble-guess/id6758044069
+        url: https://apps.apple.com/us/app/numble-guess/id6758044069
 
   - id: cheque-words
     title: Cheque Words
@@ -67,7 +67,7 @@ projects:
       - StoreKit
     links:
       - label: App Store
-        url: https://apps.apple.com/ca/app/cheque-words/id6760286602
+        url: https://apps.apple.com/us/app/cheque-words/id6760286602
 
   - id: bitwise
     title: BitWise
@@ -84,7 +84,7 @@ projects:
       - MessageUI
     links:
       - label: App Store
-        url: https://apps.apple.com/ca/app/binary-bridge/id6760290782
+        url: https://apps.apple.com/us/app/binary-bridge/id6760290782
 
   - id: tip-calculator
     title: Tip Calculator
@@ -101,7 +101,7 @@ projects:
       - MessageUI
     links:
       - label: App Store
-        url: https://apps.apple.com/ca/app/1-tip-calc/id6756928611
+        url: https://apps.apple.com/us/app/1-tip-calc/id6756928611
 
   - id: cash-notes
     title: Cash Notes
@@ -118,7 +118,7 @@ projects:
       - UserDefaults
     links:
       - label: App Store
-        url: https://apps.apple.com/ca/app/cash-notes-receipt/id6758351627
+        url: https://apps.apple.com/us/app/cash-notes-receipt/id6758351627
 
   - id: cash-counter
     title: Cash Counter
