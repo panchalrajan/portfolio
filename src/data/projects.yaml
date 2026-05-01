@@ -1,20 +1,4 @@
 projects:
-  - id: activate-mac-prank
-    title: Activate Mac Prank
-    summary: Fake “Activate Windows” watermark prank for macOS desktops.
-    description: >
-      ActivateMac adds an authentic-looking watermark across all displays,
-      runs silently without a Dock icon, and can be toggled from the menu bar.
-      Use responsibly for lighthearted fun.
-    platforms:
-      - macos
-    stack:
-      - SwiftUI
-      - AppKit
-    links:
-      - label: App Store
-        url: https://apps.apple.com/us/app/timezone-planner/id6757096147
-
   - id: timezone-planner
     title: TimeZone Planner
     summary: Clean world-clock companion with time travel and meeting planner tools.
@@ -58,37 +42,6 @@ projects:
       - label: App Store
         url: https://apps.apple.com/ca/app/gst-calculator-2-0/id6756962902
 
-  - id: instatweaks
-    title: InstaTweaks
-    summary: Powerful Instagram tweaks and customizations.
-    description: >
-      InstaTweaks adds advanced media controls, distraction blockers, anonymous
-      story viewing, and interface customization for Instagram on the web. It runs
-      locally in your browser and is lightweight and easy to use.
-    platforms:
-      - chrome-extension
-    stack:
-      - Chrome APIs
-      - TypeScript
-    links:
-      - label: Extension Store
-        url: https://chromewebstore.google.com/detail/instatweaks/hljpimmagljpokophncofgmbipfboifo
-
-  - id: flames-reveal
-    title: "Flames : Reveal"
-    summary: Step-by-step FLAMES name game with animations and history.
-    description: >
-      Flames brings the classic FLAMES name game to life with clear visuals.
-      Enter two names, choose how to treat symbols, pick what "S" means, and
-      watch the full process unfold: normalize names, cancel common letters,
-      count remaining, and eliminate the FLAMES ring to reveal the result.
-      Save outcomes in history and share results instantly.
-    platforms:
-      - ios
-    links:
-      - label: App Store
-        url: https://apps.apple.com/ca/app/flames-reveal/id6757784069
-
   - id: numble-guess
     title: Numble Guess
     summary: Challenge your mind with Guess the Number, the ultimate code-breaking puzzle game that's easy to learn but hard to master!
@@ -99,41 +52,6 @@ projects:
     links:
       - label: App Store
         url: https://apps.apple.com/ca/app/numble-guess/id6758044069
-
-  - id: icon-preview-pro
-    title: Icon Preview Pro
-    summary: Professional macOS icon generator for developers and designers.
-    description: >
-      Transform your 1024x1024 pixel images into complete, Xcode-ready icon sets instantly.
-      Icon Preview Pro generates all required icon sizes (16px to 1024px) with proper iOS-style
-      rounded corners, exports as Xcode-compatible ZIP archives, and validates your images in
-      real-time. Perfect for indie developers, design teams, and anyone who needs fast, reliable
-      icon generation without complex design tools. Native SwiftUI app with zero dependencies.
-    platforms:
-      - macos
-    stack:
-      - SwiftUI
-      - AppKit
-      - CoreGraphics
-    links:
-      - label: App Store
-        url: https://apps.apple.com/app/id0000000000
-
-  - id: pet-everywhere
-    title: Pet Everywhere
-    summary: Animated desktop pet companion for your Mac menu bar, Dock, and app icon.
-    description: >
-      Pet Everywhere brings playful animated pets to your Mac experience.
-      Choose your favorite pet, switch between Menu Bar, Dock, and App Icon modes,
-      and customize animation behavior with simple controls.
-    platforms:
-      - macos
-    stack:
-      - SwiftUI
-      - AppKit
-    links:
-      - label: App Store
-        url: https://apps.apple.com/app/id0000000000
 
   - id: cheque-words
     title: Cheque Words
@@ -199,8 +117,6 @@ projects:
       - StoreKit
       - UserDefaults
     links:
-      - label: Privacy Policy
-        url: https://www.swiftninjadev.com/privacy/cash-notes
       - label: App Store
         url: https://apps.apple.com/ca/app/cash-notes-receipt/id6758351627
 
@@ -219,5 +135,5 @@ projects:
       - UserDefaults
       - UIKit
     links:
-      - label: Privacy Policy
-        url: https://www.swiftninjadev.com/privacy/cash-counter
+      - label: App Store
+        url: https://apps.apple.com/us/app/cash-counter-multi-currency/id6765703474
