@@ -4,27 +4,32 @@ policies:
     content:
       - TimeZone Planner is a local app and does not collect, transmit, or sell any personal data.
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
+      - "For privacy questions or support, contact: panchal.rajan2k19@gmail.com"
   - id: sliderush-puzzle
     title: SlideRush - Puzzle
     content:
       - SlideRush - Puzzle is a local app and does not collect, transmit, or sell any personal data.
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
+      - "For privacy questions or support, contact: panchal.rajan2k19@gmail.com"
   - id: gst-calculator-2-0
     title: "GST Calculator : 2.0"
     content:
       - "GST Calculator : 2.0 is a local app and does not collect, transmit, or sell any personal data."
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
+      - "For privacy questions or support, contact: panchal.rajan2k19@gmail.com"
   - id: flames-reveal
     title: "Flames : Reveal"
     hidden: true
     content:
       - "Flames : Reveal is a local app and does not collect, transmit, or sell any personal data."
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
+      - "For privacy questions or support, contact: panchal.rajan2k19@gmail.com"
   - id: numble-guess
     title: Numble Guess
     content:
       - Numble Guess is a local app and does not collect, transmit, or sell any personal data.
       - The app runs entirely on your device and does not require an account. No analytics, tracking, or third-party SDKs are used.
+      - "For privacy questions or support, contact: panchal.rajan2k19@gmail.com"
   - id: cheque-words
     title: Cheque Words
     content:
@@ -32,6 +37,7 @@ policies:
       - The app runs entirely on your device and does not require an account.
       - No analytics, tracking, or third-party SDKs are used.
       - If you choose to write feedback email manually, your email app handles that communication.
+      - "For privacy questions or support, contact: panchal.rajan2k19@gmail.com"
   - id: bitwise
     title: BitWise
     content:
@@ -39,6 +45,7 @@ policies:
       - The app runs entirely on your device and does not require an account.
       - No analytics, tracking, crash reporting, or third-party SDKs are used.
       - If you choose to share conversion output or send feedback email manually, your selected apps handle that communication.
+      - "For privacy questions or support, contact: panchal.rajan2k19@gmail.com"
   - id: tip-calculator
     title: Tip Calculator
     content:
@@ -46,6 +53,7 @@ policies:
       - The app runs entirely on your device and does not require an account.
       - No analytics, tracking, crash reporting, or third-party SDKs are used.
       - If you choose to share calculation output or send feedback email manually, your selected apps handle that communication.
+      - "For privacy questions or support, contact: panchal.rajan2k19@gmail.com"
   - id: cash-notes
     title: Cash Notes
     content:
@@ -53,6 +61,7 @@ policies:
       - Your receipts and settings are stored on your device using iOS system storage.
       - No analytics, tracking, or third-party advertising SDKs are used.
       - If you choose to export or share receipt content, your selected apps handle that communication.
+      - "For privacy questions or support, contact: panchal.rajan2k19@gmail.com"
       - "Full privacy policy: https://www.swiftninjadev.com/privacy/cash-notes"
   - id: cash-counter
     title: Cash Counter
@@ -61,4 +70,5 @@ policies:
       - Your counter entries, ordering, and settings are stored on your device using iOS system storage.
       - No analytics, tracking, crash reporting, or third-party advertising SDKs are used.
       - If you choose to export or share count reports, your selected apps handle that communication.
+      - "For privacy questions or support, contact: panchal.rajan2k19@gmail.com"
       - "Full privacy policy: https://www.swiftninjadev.com/privacy/cash-counter"
