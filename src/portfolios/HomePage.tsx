@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail, ArrowUpRight } from "lucide-react";
 import profile from "@/data/profile";
 
-const P1_HomePage = () => {
+const HomePage = () => {
   const navLinks = [
     { label: "projects", href: "/projects" },
     { label: "blog", href: "#" },
@@ -81,4 +81,4 @@ const P1_HomePage = () => {
   );
 };
 
-export default P1_HomePage;
+export default HomePage;

@@ -1,7 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
 import { certificates } from "@/data/certificates";
 
-const P1_CertificatesPage = () => {
+const CertificatesPage = () => {
   return (
     <main className="min-h-screen flex flex-col items-center px-6 py-16 bg-white font-mono-jb">
       <div className="max-w-2xl w-full space-y-10">
@@ -48,4 +48,4 @@ const P1_CertificatesPage = () => {
   );
 };
 
-export default P1_CertificatesPage;
+export default CertificatesPage;

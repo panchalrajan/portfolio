@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { projects } from "@/data/projects";
 import { privacyPolicies } from "@/data/privacy";
 
-const P1_PrivacyPage = () => {
+const PrivacyPage = () => {
   const { projectId } = useParams();
   const project = projects.find((item) => item.id === projectId);
   const policy = privacyPolicies.find((item) => item.id === projectId);
@@ -42,4 +42,4 @@ const P1_PrivacyPage = () => {
   );
 };
 
-export default P1_PrivacyPage;
+export default PrivacyPage;

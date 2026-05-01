@@ -1,4 +1,4 @@
-const P1_NotFound = () => {
+const NotFoundPage = () => {
   return (
     <main className="h-full flex flex-col items-center justify-center px-6 bg-white font-mono-jb">
       <div className="max-w-md w-full space-y-6 text-center">
@@ -17,4 +17,4 @@ const P1_NotFound = () => {
   );
 };
 
-export default P1_NotFound;
+export default NotFoundPage;

@@ -1,7 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
 import { skillsSections } from "@/data/skills";
 
-const P1_SkillsPage = () => {
+const SkillsPage = () => {
   return (
     <main className="min-h-screen flex flex-col items-center px-6 py-16 bg-white font-mono-jb">
       <div className="max-w-2xl w-full space-y-10">
@@ -44,4 +44,4 @@ const P1_SkillsPage = () => {
   );
 };
 
-export default P1_SkillsPage;
+export default SkillsPage;

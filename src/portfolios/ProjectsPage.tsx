@@ -1,7 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
 import { projects } from "@/data/projects";
 
-const P1_ProjectsPage = () => {
+const ProjectsPage = () => {
   return (
     <main className="min-h-screen h-full overflow-y-auto flex flex-col items-center px-6 py-16 bg-white font-mono-jb">
       <div className="max-w-2xl w-full space-y-10">
@@ -56,4 +56,4 @@ const P1_ProjectsPage = () => {
   );
 };
 
-export default P1_ProjectsPage;
+export default ProjectsPage;

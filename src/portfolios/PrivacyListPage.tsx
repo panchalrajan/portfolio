@@ -2,7 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 import { projects } from "@/data/projects";
 import { hiddenPrivacyPolicyIds, privacyPolicies } from "@/data/privacy";
 
-const P1_PrivacyListPage = () => {
+const PrivacyListPage = () => {
   const policiesById = new Map(privacyPolicies.map((policy) => [policy.id, policy]));
 
   return (
@@ -55,4 +55,4 @@ const P1_PrivacyListPage = () => {
   );
 };
 
-export default P1_PrivacyListPage;
+export default PrivacyListPage;
